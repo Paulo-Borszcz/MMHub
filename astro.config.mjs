@@ -10,26 +10,27 @@ export default defineConfig({
       customCss: [
         "./src/tailwind.css",
       ],
-      sidebar: [
-        {
-          label: "Guias",
-          autogenerate: {
-            directory: "guides",
-          },
-        },
-        {
-          label: "Abertura de Chamados",
-          autogenerate: {
-            directory: "chamados",
-          },
-        },
-        {
-          label: "Reference",
-          autogenerate: {
-            directory: "reference",
-          },
-        },
-      ],
+      sidebar: [{
+        label: "Guias",
+        autogenerate: {
+          directory: "guides"
+        }
+      }, {
+        label: "Abertura de Chamados",
+        autogenerate: {
+          directory: "chamados"
+        }
+      }, {
+        label: "VOIP/Telefonia",
+        autogenerate: {
+          directory: "voip"
+        }
+      }, {
+        label: "Setores x Responsabilidade",
+        autogenerate: {
+          directory: "setores"
+        }
+      }]
     }),
     tailwind({
       // Desabilita os estilos base padrões:
