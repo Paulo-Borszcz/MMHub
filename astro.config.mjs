@@ -39,5 +39,6 @@ export default defineConfig({
       // Desabilita os estilos base padrões:
       applyBaseStyles: false,
     }),
+
   ],
 });
