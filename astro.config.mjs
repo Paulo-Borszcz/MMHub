@@ -7,6 +7,9 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "MMHub",
+      components: {
+        LastUpdated: './src/components/CustomLastUpdate.astro',
+      },
       customCss: [
         "./src/tailwind.css",
       ],
